@@ -58,9 +58,8 @@
         gresc_tilde: gresc_tilde {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp ESC>, <&kp GRAVE>;
-            mods = <(MOD_LSFT|MOD_RSFT|MOD_LGUI|MOD_RGUI)>;
-            keep-mods = <(MOD_LSFT|MOD_RSFT)>;
+            bindings = <&kp ESC>, <&kp TILDE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 
